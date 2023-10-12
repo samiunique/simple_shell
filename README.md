@@ -1,4 +1,4 @@
-![gate of shell]<blockquote class="imgur-embed-pub" lang="en" data-id="tj7SeHL"  ><a href="//imgur.com/tj7SeHL">gate of shell</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script><br>
+![gate of shell]https://imgur.com/tj7SeHL <blockquote class="imgur-embed-pub" lang="en" data-id="tj7SeHL"  ><a href="//imgur.com/tj7SeHL">gate of shell</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script><br>
 
 LWARNING OBJECTIVES<br>
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:<br>
