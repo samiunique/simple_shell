@@ -18,7 +18,4 @@ IN GENERAL YOU HAVE TO KNOW<br>
 - How to execute another program with the execve system call<br>
 - How to suspend the execution of a process until one of its children terminates<br>
 - What is EOF / “end-of-file”?<br>
- THIS PEOJECT IS DONE BY SAMSON MEKONNEN AND YORDANOS TAREKEGN
  
-
-  "TOGETHER WE CAN"
