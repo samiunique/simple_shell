@@ -25,7 +25,7 @@ size_t list_len(const list_stru *h)
 char **list_to_vector(list_stru *head)
 {
 	list_stru *node = head;
-	size_t i = _listlen(head), j;
+	size_t i = list_len(head), j;
 	char **strs;
 
 	char *str;
