@@ -1,5 +1,7 @@
 #ifndef SHELL_H
 #define SHELL_H
+
+/*structure and flow */
 #include <fcntl.h>
 #include <math.h>
 #include <dirent.h>
@@ -152,7 +154,8 @@ void free_vector(char **);
 void print_error(information_s *, char *);
 void handle_comments(char *);
 void free_list(list_stru **);
-void check_chain(information_s *info, char *buf, size_t *p, size_t i, size_t len);
+void check_chain(information_s *info, char *buf, size_t *p,
+		size_t i, size_t len);
 int handle_built_in(information_s *);
 bool is_executable(information_s *, char *);
 int loophsh(char **);
@@ -182,10 +185,5 @@ int count_words(char *str, char *separators, unsigned int *arr);
 void set_zero(unsigned int *arr, size_t size);
 void set_null(char *arr, size_t size);
 bool is_delimit(char c, char *delimiters);
+
 #endif
-
-
-
-
-
-

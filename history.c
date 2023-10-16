@@ -14,7 +14,8 @@ char *read_hist(information_s *info)
 	dir = _getenv(info, "HOME=");
 	if (!dir)
 		return (NULL);
-	buf = malloc(sizeof(char) * (my_string_length(dir) + my_string_length(HISTORY_FILE_NAME) + 2));
+	buf = malloc(sizeof(char) *
+			(my_string_length(dir) + my_string_length(HISTORY_FILE_NAME) + 2));
 	if (!buf)
 		return (NULL);
 	buf[0] = 0;
