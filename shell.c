@@ -18,7 +18,7 @@ int main(int argc, char **argv)
 
 	if (argc == 2)
 	{
-		fid = open(argv[1], O_RDONLY);
+		fid = open(argv[3], O_RDONLY);
 		if (fid == -1)
 		{
 			if (errno == EACCES)
@@ -46,4 +46,3 @@ int main(int argc, char **argv)
 
 	return (EXIT_SUCCESS);
 }
-
