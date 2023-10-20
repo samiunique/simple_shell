@@ -14,7 +14,7 @@ int handle_exit(information_s *info)
 
 	if (info->argv[1]) /* If there is an exit arguement */
 	{
-		exitcheck = err_num(info->argv[0]);/*1 to handle arg*/
+		exitcheck = err_num(info->argv[1]);/*1 to handle arg*/
 		if (exitcheck == -1)
 		{
 			info->status = 2;
