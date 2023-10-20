@@ -59,7 +59,7 @@ char *check_file_in_path(information_s *info, char *pathstr, char *cmd)
 	}
 	while (1)
 	{
-		if (!pathstr[i] || pathstr[i] == ':') /* task 2 - if (!pathstr[i] || pathstr[i] == ':')*/
+		if (!pathstr[i] || pathstr[i] == ':') /* task 2)*/
 		{
 			path = dup_chars(pathstr, curr_pos, i);
 			if (!*path)
